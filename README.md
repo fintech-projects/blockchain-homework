@@ -29,7 +29,6 @@ A new, more transparent economy
 Blockchain helps to build trust and transparency by enabling an audit trail of persistent object identity over time. The Everledger Platform operates on a private blockchain network with enterprise speed and capability, where object details and associated processing events can be easily added. This data writes new information to the ledger in what is considered a ‘block.’ 
 ### Each new block contains within it a cryptographic hash, and because all records are connected by their hash value, they are immutable and cannot be changed.
 
-
 <kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger-Diamonds.png)
 
 ## Challenge
@@ -46,6 +45,8 @@ This also enabled customers can check the validity of a GIA diamond grading repo
 ## Results
 The application of blockchain technology in e-commerce to store verifiable grading report information on the blockchain for consumers to interact with provides unprecedented levels of transparency into the quality and authenticity of the diamonds consumers purchase online. This enhances the digital e-commerce experience and builds more trust in China’s online jewellery market.
 Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience
+
+<em>Further details of the case study is located in the ever-ledger-case-study.md document file inside the folder blockchain-case-study</em>
 
 # BUILDING THE BLOCKCHAIN
 
