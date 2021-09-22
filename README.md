@@ -53,6 +53,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
     Password was entered and hit entered. 
 
 <kbd>![Bootnodes](PoA-development-blockchain/Screenshots/node-bootnodes.png)
+<br>
 <kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/account-balance-with-amount-after-mining.png)
 
 
