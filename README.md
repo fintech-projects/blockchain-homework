@@ -53,7 +53,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
     Password was entered and hit entered. 
 
 <kbd>![Bootnodes](PoA-development-blockchain/Screenshots/node-bootnodes.png)
-<br>
+
 <kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/account-balance-with-amount-after-mining.png)
 
 
@@ -64,6 +64,8 @@ Because the accounts must be approved, we generated two new nodes with new accou
 - Opened the MyCrypto app, then clicked Change Network at the bottom left:
 
     Clicked "Add Custom Node", then added the custom network information that was set in the genesis.
+
+<kbd>![Custom Node](PoA-development-blockchain/Screenshots/custom-node.png)
 
 - Then Chose Custom in the "Network" column to reveal more options like Chain ID:
 
@@ -79,6 +81,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 - Selected the View & Send option from the left menu pane, then click Keystore file.
 
+
 - On the next screen, clicked Select Wallet File, then navigated to the keystore directory inside your Node1 directory, selected the file located there, provided the password when prompted and then clicked Unlock.
 
 - This opened the account wallet inside MyCrypto.
@@ -89,6 +92,12 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 - Confirmed the transaction by clicking "Send Transaction", and then the "Send" button in the pop-up window.
 
+<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-confirm.png)
+
 - Clicked the Check TX Status 
+
+<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-pending-status.png)
+
+<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-success-wallet.png)
 
 #### The transaction went from Pending to Successful!
