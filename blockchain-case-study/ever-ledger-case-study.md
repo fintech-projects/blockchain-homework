@@ -1,4 +1,5 @@
-blockchain-homework
+# blockchain-homework
+
 # BLOCKCHAIN CASE STUDY 
 
 ## EVERLEDGER 
@@ -10,7 +11,7 @@ The world’s first digital blockchain pilot for critical minerals is a collabor
 Everledger’s blockchain technology will be used to create a ‘digital certification’ for critical minerals throughout the supply chain from extraction to processing and export to global markets. The pilot will help companies in the sector adhere to compliance regulations and increase the demand for Australian minerals in global markets while also simplifying the process and lowering costs.
 
 
-<kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger-Diamonds.png)
+<kbd>![Everledger Diamonds](images/Everledger-Diamonds.png)
 
 #### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
 
@@ -47,104 +48,32 @@ This also enabled customers can check the validity of a GIA diamond grading repo
 The application of blockchain technology in e-commerce to store verifiable grading report information on the blockchain for consumers to interact with provides unprecedented levels of transparency into the quality and authenticity of the diamonds consumers purchase online. This enhances the digital e-commerce experience and builds more trust in China’s online jewellery market.
 Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience
 
-# BUILDING THE BLOCKCHAIN
+## Console
+Then, in using the platform as an onramp for the use of blockchain, participants don’t need any special tools or technical understanding to benefit from the underlying technology. You can start sourcing elusive assets, validate that something is what it says it is, upload data to substantiate claims that you want to make, connect with suppliers and retailers or transfer ownership of assets, and dig into analytics.
 
-## Proof of Authority Development Chain
+## API
+Rely on Everledger’s REST API and infrastructure services for uploading data to the Everledger Platform, include blockchain-backed data for every asset on the platform within other sites, or associate transactions so that inventory displays are universally updated and immutable transfers of ownership are recorded. 
 
-## Instrictions to setup the custom out-of-the-box blockchain
+## App - "Identify" - Blockchain-backed product authentication
+Producers on the Everledger Platform can now use apps like Identify to provide clear evidence of production details for object-level provenance records that are added to the blockchain and binded to your materials or products. This makes it easy to engage with downstream participants and tell your story as an immutable truth, enabling the digital to meet the physical.
 
-The Proof of Authority (PoA) algorithm is typically used for private blockchain networks as it requires pre-approval of, or voting in of, the account addresses that can approve transactions (seal blocks).
+#### Product claims validated by blockchain
+Your product’s unique digital identity
+Authenticate, transfer, and track products by creating digital identities and custom experiences that are accessed with mobile device interaction. Simply use the Everledger Platform to add to an object’s provenance record with richer details such as who created it, where it was made, and how it came to be. Then, easily configure a secure landing page that’s consistent with your brand and reached only through your product.
+By applying a security layer of IoT sensors, intelligent labelling, synthetic DNA, or machine vision, product authentication and ownership events can write new information to the blockchain for the highest level of brand protection.
 
-Because the accounts must be approved, we generated two new nodes with new account addresses that will serve as our pre-approved sealer addresses.
-
-- Created accounts for two nodes for the network with a separate datadir for each using geth.
-    ./geth --datadir node1 account new
-    ./geth --datadir node2 account new
-<kbd>![Nodes Creation](PoA-development-blockchain/Screenshots/create-node.png)
-
-- Next, generated the genesis block.
-
-- Puppeth was run, named the network, and selected the option to configure a new genesis block.
+#### Intelligent Labelling ​- Blockchain Authentication 
+Everledger offers a range of intelligent labelling solutions from data matrix codes, to synthetic markers, to encrypted near field communication
 
 
-- Chose the Clique (Proof of Authority) consensus algorithm.
+#### RESOURCES
+https://everledger.io/
+
+https://www.altoros.com/blog/a-close-look-at-everledger-how-blockchain-secures-luxury-goods/
+
+https://www.forbes.com/sites/michaeldelcastillo/2020/02/12/the-future-of-blockchain-fintech-50-2020/?sh=31ac7d7a1ea2
 
 
-- Pasted both account addresses from the first step one at a time into the list of accounts to seal.
 
-
-- Pasted them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.
-<kbd>![Puppeth run](PoA-development-blockchain/Screenshots/accounts-seal.png)
-
-- Continued with the default option for the prompt that asks, Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei?
-
-
-- Completed the rest of the prompts, and from the main menu, chose the "Manage existing genesis" option.
-
-
-- Exported genesis configurations. This failed to create two of the files, but created networkname.json
-
-
-- With the genesis block creation completed, nitialized the nodes with the genesis' json file.
-
-- Using geth, initialized each node with the new networkname.json.
-    ./geth --datadir node1 init networkname.json
-    ./geth --datadir node2 init networkname.json
-
-- The nodes were then used to begin mining blocks.
-
-- In separate terminal windows,  the commands were run to run the nodes:
-    ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
-    ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
-
-    Password was entered and hit entered. 
-
-<kbd>![Bootnodes](PoA-development-blockchain/Screenshots/node-bootnodes.png)
-
-<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/account-balance-with-amount-after-mining.png)
-
-
-#### Private PoA blockchain was running!
-
-- With both nodes up and running, the blockchain was to MyCrypto for testing.
-
-- Opened the MyCrypto app, then clicked Change Network at the bottom left:
-
-    Clicked "Add Custom Node", then added the custom network information that was set in the genesis.
-
-<kbd>![Custom Node](PoA-development-blockchain/Screenshots/custom-node.png)
-
-- Then Chose Custom in the "Network" column to reveal more options like Chain ID:
-
-- Typed ETH in the Currency box.
-
-- In the Chain ID box, type the chain id was entered.
-
-- In the URL box typed: http://127.0.0.1:8545.  This points to the default RPC port on your local machine.
-
-- Finally, clicked Save & Use Custom Node.
-
-- After connecting to the custom network in MyCrypto, it was tested by sending money between accounts.
-
-- Selected the View & Send option from the left menu pane, then click Keystore file.
-
-
-- On the next screen, clicked Select Wallet File, then navigated to the keystore directory inside your Node1 directory, selected the file located there, provided the password when prompted and then clicked Unlock.
-
-- This opened the account wallet inside MyCrypto.
-
-- There were millions of ETH tokens are just for testing purposes which is the balance that was pre-funded for this account in the genesis configuration.
-
-- In the To Address box, typed the account address from Node2, then filled in an arbitrary amount of ETH:
-
-- Confirmed the transaction by clicking "Send Transaction", and then the "Send" button in the pop-up window.
-
-<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-confirm.png)
-
-- Clicked the Check TX Status 
-
-<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-pending-status.png)
-
-<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-success-wallet.png)
 
 #### The transaction went from Pending to Successful!
