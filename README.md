@@ -144,6 +144,8 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 - Clicked the Check TX Status 
 
+<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-pending-status.png)
+
 <kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/Transaction-success-wallet.png)
 
 #### The transaction went from Pending to Successful!
