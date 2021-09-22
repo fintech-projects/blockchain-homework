@@ -62,12 +62,11 @@ By applying a security layer of IoT sensors, intelligent labelling, synthetic DN
 #### Intelligent Labelling ​- Blockchain Authentication 
 Everledger offers a range of intelligent labelling solutions from data matrix codes, to synthetic markers, to encrypted near field communication
 
-
 #### RESOURCES
 https://everledger.io/
 
 https://www.altoros.com/blog/a-close-look-at-everledger-how-blockchain-secures-luxury-goods/
 
-https://www.forbes.com/sites/michaeldelcastillo/2020/02/12/the-future-of-blockchain-fintech-50-2020/?sh=31ac7d7a1ea2
+https://www.forbes.com/
 
 ### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
