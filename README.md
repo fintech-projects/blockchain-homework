@@ -27,7 +27,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 
 - Pasted them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.
-
+![Puppeth run](PoA-development-blockchain/Screenshots/accounts-seal.png)
 
 - Continued with the default option for the prompt that asks, Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei?
 
