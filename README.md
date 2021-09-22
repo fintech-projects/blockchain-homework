@@ -13,7 +13,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 - Created accounts for two nodes for the network with a separate datadir for each using geth.
     ./geth --datadir node1 account new
     ./geth --datadir node2 account new
-![Nodes Creation](PoA-development-blockchain/Screenshots/create-node.png)
+<kbd>![Nodes Creation](PoA-development-blockchain/Screenshots/create-node.png)
 
 - Next, generated the genesis block.
 
@@ -51,6 +51,10 @@ Because the accounts must be approved, we generated two new nodes with new accou
     ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
     Password was entered and hit entered. 
+
+<kbd>![Bootnodes](PoA-development-blockchain/Screenshots/node-bootnodes.png)
+<kbd>![Account-after-mining](PoA-development-blockchain/Screenshots/account-balance-with-amount-after-mining.png)
+
 
 #### Private PoA blockchain was running!
 
