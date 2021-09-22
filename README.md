@@ -1,14 +1,12 @@
-blockchain-homework
 # BLOCKCHAIN CASE STUDY 
 
 ## EVERLEDGER 
-Everledger is the digital transparency company, providing technology solutions to increase transparency in global supply chains. Their purpose is to contribute greater clarity and confidence in the marketplaces where transparency is a strategic imperative.
+Everledger is the digital transparency company, providing technology solutions to increase transparency in global supply chains. 
 
 ### Everledger wins major Australian Government critical minerals blockchain pilot project
 The world’s first digital blockchain pilot for critical minerals is a collaboration between Everledger and significant contributors from Australia and world experts.
 
 Everledger’s blockchain technology will be used to create a ‘digital certification’ for critical minerals throughout the supply chain from extraction to processing and export to global markets. The pilot will help companies in the sector adhere to compliance regulations and increase the demand for Australian minerals in global markets while also simplifying the process and lowering costs.
-
 
 <kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger.png)
 
@@ -44,7 +42,7 @@ This also enabled customers can check the validity of a GIA diamond grading repo
 
 ## Results
 The application of blockchain technology in e-commerce to store verifiable grading report information on the blockchain for consumers to interact with provides unprecedented levels of transparency into the quality and authenticity of the diamonds consumers purchase online. This enhances the digital e-commerce experience and builds more trust in China’s online jewellery market.
-Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience
+Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience.
 
 <em>Further details of the case study is located in the ever-ledger-case-study.md document file inside the folder blockchain-case-study</em>
 

@@ -13,8 +13,6 @@ Everledger’s blockchain technology will be used to create a ‘digital certifi
 
 <kbd>![Everledger Diamonds](images/Everledger-Diamonds.png)
 
-#### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
-
 ### Founder & CEO: Australian Leanne Kemp, 47
 Words form CEO - “We are thrilled to win this pilot project from the Australian Government. The race is on for rare earths and other critical minerals. Australian critical minerals are some of the highest quality in the world. More importantly, they are the essential building blocks for the clean energy technologies of the future.”
 
@@ -46,7 +44,7 @@ This also enabled customers can check the validity of a GIA diamond grading repo
 
 ## Results
 The application of blockchain technology in e-commerce to store verifiable grading report information on the blockchain for consumers to interact with provides unprecedented levels of transparency into the quality and authenticity of the diamonds consumers purchase online. This enhances the digital e-commerce experience and builds more trust in China’s online jewellery market.
-Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience
+Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience.
 
 ## Console
 Then, in using the platform as an onramp for the use of blockchain, participants don’t need any special tools or technical understanding to benefit from the underlying technology. You can start sourcing elusive assets, validate that something is what it says it is, upload data to substantiate claims that you want to make, connect with suppliers and retailers or transfer ownership of assets, and dig into analytics.
@@ -58,7 +56,6 @@ Rely on Everledger’s REST API and infrastructure services for uploading data t
 Producers on the Everledger Platform can now use apps like Identify to provide clear evidence of production details for object-level provenance records that are added to the blockchain and binded to your materials or products. This makes it easy to engage with downstream participants and tell your story as an immutable truth, enabling the digital to meet the physical.
 
 #### Product claims validated by blockchain
-Your product’s unique digital identity
 Authenticate, transfer, and track products by creating digital identities and custom experiences that are accessed with mobile device interaction. Simply use the Everledger Platform to add to an object’s provenance record with richer details such as who created it, where it was made, and how it came to be. Then, easily configure a secure landing page that’s consistent with your brand and reached only through your product.
 By applying a security layer of IoT sensors, intelligent labelling, synthetic DNA, or machine vision, product authentication and ownership events can write new information to the blockchain for the highest level of brand protection.
 
@@ -73,7 +70,4 @@ https://www.altoros.com/blog/a-close-look-at-everledger-how-blockchain-secures-l
 
 https://www.forbes.com/sites/michaeldelcastillo/2020/02/12/the-future-of-blockchain-fintech-50-2020/?sh=31ac7d7a1ea2
 
-
-
-
-#### The transaction went from Pending to Successful!
+### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
