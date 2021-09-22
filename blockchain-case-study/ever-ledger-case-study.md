@@ -46,6 +46,8 @@ This also enabled customers can check the validity of a GIA diamond grading repo
 The application of blockchain technology in e-commerce to store verifiable grading report information on the blockchain for consumers to interact with provides unprecedented levels of transparency into the quality and authenticity of the diamonds consumers purchase online. This enhances the digital e-commerce experience and builds more trust in China’s online jewellery market.
 Their solution is also supplemented with livestreams and customer education initiatives to help customers learn how to avoid fraudulent activity when purchasing diamonds, all of which will provide a superior digital user experience.
 
+<kbd>![Everledger Diamonds](images/Everledger-Blockchain-application-in-the-diamond-industry.png)
+
 ## Console
 Then, in using the platform as an onramp for the use of blockchain, participants don’t need any special tools or technical understanding to benefit from the underlying technology. You can start sourcing elusive assets, validate that something is what it says it is, upload data to substantiate claims that you want to make, connect with suppliers and retailers or transfer ownership of assets, and dig into analytics.
 
