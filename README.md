@@ -10,7 +10,7 @@ The world’s first digital blockchain pilot for critical minerals is a collabor
 Everledger’s blockchain technology will be used to create a ‘digital certification’ for critical minerals throughout the supply chain from extraction to processing and export to global markets. The pilot will help companies in the sector adhere to compliance regulations and increase the demand for Australian minerals in global markets while also simplifying the process and lowering costs.
 
 
-<kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger-Diamonds.png)
+<kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger.png)
 
 #### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
 
@@ -30,7 +30,7 @@ Blockchain helps to build trust and transparency by enabling an audit trail of p
 ### Each new block contains within it a cryptographic hash, and because all records are connected by their hash value, they are immutable and cannot be changed.
 
 
-<kbd>![Everledger Diamonds](images/Everledger-Diamonds.png)
+<kbd>![Everledger Diamonds](blockchain-case-study/images/Everledger-Diamonds.png)
 
 ## Challenge
 Given the rapid growth in China’s e-commerce, luxury jewellery retailers are increasingly looking to digitally connect with their consumers and build brand loyalty online. The rise of online shopping is of key importance in the Chinese market, where digitally-savvy millennials account for 68% of diamond sales compared to only 45% worldwide.
