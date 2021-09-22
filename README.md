@@ -13,7 +13,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 - Created accounts for two nodes for the network with a separate datadir for each using geth.
     ./geth --datadir node1 account new
     ./geth --datadir node2 account new
-![Nodes Creation](Screenshots/create-node.png)
+![Nodes Creation](blockchain-case-study/Screenshots/create-node.png)
 
 - Next, generated the genesis block.
 
