@@ -1,5 +1,3 @@
-# blockchain-homework
-
 # BUILDING THE BLOCKCHAIN
 
 ## Proof of Authority Development Chain
