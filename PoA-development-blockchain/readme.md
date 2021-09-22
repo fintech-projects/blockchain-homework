@@ -1,3 +1,5 @@
+# blockchain-homework
+
 # BUILDING THE BLOCKCHAIN
 
 ## Proof of Authority Development Chain
@@ -11,7 +13,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 - Created accounts for two nodes for the network with a separate datadir for each using geth.
     ./geth --datadir node1 account new
     ./geth --datadir node2 account new
-![Nodes Creation](Screenshots/create-node.png)
+<kbd>![Nodes Creation](Screenshots/create-node.png)
 
 - Next, generated the genesis block.
 
@@ -25,7 +27,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 
 - Pasted them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.
-
+<kbd>![Puppeth run](Screenshots/accounts-seal.png)
 
 - Continued with the default option for the prompt that asks, Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei?
 
@@ -50,6 +52,11 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
     Password was entered and hit entered. 
 
+<kbd>![Bootnodes](Screenshots/node-bootnodes.png)
+
+<kbd>![Account-after-mining](Screenshots/account-balance-with-amount-after-mining.png)
+
+
 #### Private PoA blockchain was running!
 
 - With both nodes up and running, the blockchain was to MyCrypto for testing.
@@ -57,6 +64,8 @@ Because the accounts must be approved, we generated two new nodes with new accou
 - Opened the MyCrypto app, then clicked Change Network at the bottom left:
 
     Clicked "Add Custom Node", then added the custom network information that was set in the genesis.
+
+<kbd>![Custom Node](Screenshots/custom-node.png)
 
 - Then Chose Custom in the "Network" column to reveal more options like Chain ID:
 
@@ -72,6 +81,7 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 - Selected the View & Send option from the left menu pane, then click Keystore file.
 
+
 - On the next screen, clicked Select Wallet File, then navigated to the keystore directory inside your Node1 directory, selected the file located there, provided the password when prompted and then clicked Unlock.
 
 - This opened the account wallet inside MyCrypto.
@@ -82,6 +92,12 @@ Because the accounts must be approved, we generated two new nodes with new accou
 
 - Confirmed the transaction by clicking "Send Transaction", and then the "Send" button in the pop-up window.
 
+<kbd>![Account-after-mining](Screenshots/Transaction-confirm.png)
+
 - Clicked the Check TX Status 
+
+<kbd>![Account-after-mining](Screenshots/Transaction-pending-status.png)
+
+<kbd>![Account-after-mining](Screenshots/Transaction-success-wallet.png)
 
 #### The transaction went from Pending to Successful!
