@@ -71,4 +71,4 @@ https://www.altoros.com/blog/a-close-look-at-everledger-how-blockchain-secures-l
 
 https://www.forbes.com/
 
-### Everledger has always been about the power of many. Where Supply chains meet the blockchain!
+### Everledger has always been about the power of many. Where Supply chains meet the Blockchain!
