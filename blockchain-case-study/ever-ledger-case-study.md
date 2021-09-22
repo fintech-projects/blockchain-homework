@@ -11,7 +11,7 @@ The world’s first digital blockchain pilot for critical minerals is a collabor
 Everledger’s blockchain technology will be used to create a ‘digital certification’ for critical minerals throughout the supply chain from extraction to processing and export to global markets. The pilot will help companies in the sector adhere to compliance regulations and increase the demand for Australian minerals in global markets while also simplifying the process and lowering costs.
 
 
-<kbd>![Everledger Diamonds](images/Everledger-Diamonds.png)
+<kbd>![Everledger Diamonds](images/Everledger.png)
 
 ### Founder & CEO: Australian Leanne Kemp, 47
 Words form CEO - “We are thrilled to win this pilot project from the Australian Government. The race is on for rare earths and other critical minerals. Australian critical minerals are some of the highest quality in the world. More importantly, they are the essential building blocks for the clean energy technologies of the future.”
